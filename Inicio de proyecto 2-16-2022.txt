@@ -1,0 +1,13 @@
+-Proyecto-
+	Tienda online de sombreros para peces
+-Fecha de entrega
+	Indefinida
+-Funcionalidades
+	-Barra superior de navegacion con 4 pestañas
+		-(Principal)Ofertas	
+		-General
+		-Contacto
+		-Atención a clientes
+	-Pagos en linea seguros
+	-Caja de comentarios
+	-Agregar/eliminar stock
