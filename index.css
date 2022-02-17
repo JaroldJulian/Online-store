@@ -54,3 +54,7 @@ a:link:hover, a:visited:hover, a:active:hover {
     margin-bottom: 20px;
     text-align: center;
 }
+.content{
+    padding-top: 30px;
+    padding-left: 270px;
+}
