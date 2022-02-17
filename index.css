@@ -1,5 +1,19 @@
+
+
 .header{
-    margin-left: 10%;
+    margin-left: 25%;
+    
+}
+
+.header li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.header li:hover {
     
 }
 
@@ -7,3 +21,6 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 
+a:link:hover, a:visited:hover, a:active:hover {
+    color: black;
+}
