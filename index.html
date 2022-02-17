@@ -8,7 +8,8 @@
     <meta name="author" content="Jarold Julian Buenrostro Ponce, Daniel Hamish Gomez, Isaias Hernandez Muñoz">
     <meta name="description" content="Tienda de sombreros para peces"> 
     <meta name="keywords" content="tienda, sombreros para peces, peces, web design">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js" defer></script>
     <title>Peces ensombrerados</title>
 </head>
 <body>
@@ -26,16 +27,16 @@
                     <i class="fa-solid fa-fish fa-2x"></i>
                 </li>
                 <li>
-                    <a><i class="fa-solid fa-money-bill"></i> Ofertas</a>
+                    <a data-target="#ofertas"><i class="fa-solid fa-money-bill"></i> Ofertas</a>
                 </li>
                 <li>
-                    <a><i class="fa-solid fa-house"></i> General</a>
+                    <a data-target="#general"><i class="fa-solid fa-house"></i> General</a>
                 </li>
                 <li>
-                    <a><i class="fa-regular fa-envelope"></i> Contacto</a>
+                    <a data-target="#contacto"><i class="fa-regular fa-envelope"></i> Contacto</a>
                 </li>
                 <li>
-                    <a><i class="fa-solid fa-phone-volume"></i> Atención al cliente</a>
+                    <a data-target="#customerservice"><i class="fa-solid fa-phone-volume"></i> Atención al cliente</a>
                 </li>
             </ul>
         </nav>
@@ -45,23 +46,21 @@
 
     <div class="content">
 
-        <div id="ofertas">
+        <div data-content id="ofertas" class="active">
             <h1>Ofertas</h1>
         </div>
 
-        <div id="general">
+        <div data-content id="general">
             <h1>General</h1>
         </div>
 
-        <div id="contacto">
+        <div data-content id="contacto">
             <h1>Contacto</h1>
         </div>
 
-        <div id="customerservice">
+        <div data-content id="customerservice">
             <h1>Llamanos ahora</h1>
         </div>
-
-
     </div>
 
 
