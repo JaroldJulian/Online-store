@@ -55,8 +55,49 @@
             <h1>General</h1>
         </div>
 
+        <!--Inconcluso--> 
         <div data-content id="contacto">
-            <h1>Contacto</h1>
+            <div class="contenedor">
+                <h1>Contacto</h1>
+                <div class="form-container">
+                    <form>
+                        <div class="user-form">
+                            <div class="user-data">
+                                <div class="form-input">
+                                    Nombre
+                                    <input type="text" placeholder="Nombre y apellido">
+                                </div>
+                            </div>
+                            <div class="user-data">
+                                <div class="form-input">
+                                    Email
+                                    <input type="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="user-data">
+                                <div class="form-input">
+                                    Teléfono de contacto
+                                    <input type="number" placeholder="Teléfono">
+                                </div>
+                            </div>
+                            <div class="user-message">
+                                <div class="form-textarea">
+                                    Mensaje
+                                    <textarea placeholder="Déjanos tu mensaje"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-accept">
+                            <div class="form-checkbox">
+                                <input type="checkbox"> Quiero recibir notificaciones de <b>Peces ensombrerados</b>
+                            </div>
+                            <div class="form-submit">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
         <div data-content id="customerservice">
@@ -72,8 +113,9 @@
             <div class="sidebar"> 
                 <h3>Dejenos un comentario</h3>
                 <h3>para mejorar!</h3>
-                <input type="text">
-                <h3>Lateral</h3>    
+                <input type="text" id="textbox">
+                <input type="button" value="Enviar" id="button">
+                <h3>Lateral</h3>   
             </div>
         </div>
 
