@@ -69,9 +69,45 @@ a:link:hover, a:visited:hover, a:active:hover {
 .pescao{
 width: 45%;
 }
-.sidebar input{
+.sidebar #textbox{
     height: 25%;
     background-color: #B4DEF7;
     border-color: black;
     border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 10px;
 }
+
+.sidebar #button {
+    height: 15%;
+    width: 45%;
+    margin-left: 27%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+}
+
+.contenedor {
+    display: flex;
+    align-content: center;
+}
+
+.contenedor input, textarea, div, form {
+    box-sizing: border-box;
+}
+
+.form-container {
+    margin: auto;
+}
+
+.user-form {
+    display: flex;
+}
+
+.form-input input, .form-textarea, textarea {
+    width: 100%;
+}
+
+.form-input .userdata {
+    display: inline-block;
+}
+
