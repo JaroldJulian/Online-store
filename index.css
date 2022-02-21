@@ -132,3 +132,15 @@ width: 45%;
     float: center;  
   }
   
+
+  #check {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      margin: 10px;
+  }
+   
+  #enviar {
+      margin: 10px;
+      display: inline-block;
+  }
