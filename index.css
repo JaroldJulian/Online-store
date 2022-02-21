@@ -86,28 +86,49 @@ width: 45%;
     border-radius: 5px;
 }
 
-.contenedor {
-    display: flex;
-    align-content: center;
-}
-
-.contenedor input, textarea, div, form {
-    box-sizing: border-box;
-}
-
-.form-container {
-    margin: auto;
-}
-
-.user-form {
-    display: flex;
-}
-
-.form-input input, .form-textarea, textarea {
-    width: 100%;
-}
-
-.form-input .userdata {
-    display: inline-block;
-}
-
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  .contact_form input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  .contact_form textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  .contact_form label{
+    display: block; 
+    float: center;  
+  }
+  
