@@ -1,0 +1,7 @@
+#Pendientes#
+	-Problemas de Zoom
+		-El div de nombre y precio de la oferta no se reduce al reducir resulución
+		-El texto de navegación no se reduce
+		-La caja de texto de barra lateral no se reduce
+		-Barra lateral topa con el diseño de la cabecera al reducir resolución
+		-Al reducir resolución, el pescado se pone por debajo de la cabecera de pagina
