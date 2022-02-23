@@ -17,6 +17,7 @@ body {
     background-color: #B4F4F7; 
     position: absolute;
 }
+
 .header li {
     list-style: none;
     display: inline-block;
@@ -144,4 +145,24 @@ width: 45%;
   #enviar {
       margin: 10px;
       display: inline-block;
+  }
+
+  @media screen and (max-width: 600px) {
+      .wrapper {
+          display: none;
+      }
+
+      .content {
+          width: 100%;
+          padding-left: 0%;
+      }
+
+      .contenedor {
+          width: 100%;
+          margin: 10%;
+      }
+      
+      nav {
+          margin-top: -100px;
+      }
   }
