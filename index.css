@@ -18,6 +18,10 @@ body {
     position: absolute;
 }
 
+#rmovil {
+    display: none;
+}
+
 .header li {
     list-style: none;
     display: inline-block;
@@ -147,14 +151,31 @@ width: 45%;
       display: inline-block;
   }
 
+
+
+
+  /*Resoluciones de telefono movil*/
   @media screen and (max-width: 600px) {
-      .wrapper {
+    
+    #rpc {
+        display: none;
+    }
+
+    #rmovil {
+        display: inline-block;
+    }  
+
+    .wrapper {
           display: none;
       }
 
       .content {
-          width: 100%;
+          width: 90%;
           padding-left: 0%;
+          position: absolute;
+          margin-top: 100px;
+          margin-left: 10px;
+          margin-right: 10px;
       }
 
       .contenedor {
@@ -162,7 +183,17 @@ width: 45%;
           margin: 10%;
       }
       
-      nav {
-          margin-top: -100px;
+      #rmovil i {
+          margin-left: 20px;
+      }
+      
+      #rmovil ul {
+          margin: 25px 40px;
+      }
+
+      nav li {
+          display: inline;
+          margin: none;
+          padding: none;
       }
   }
